@@ -8,3 +8,5 @@ meeting designer's expectations and guidelines, pixel to pixel fidelity, as well
 This design is based on the contest winning PSD provided by [Bionocopy](https://gumroad.com/bionocopy) He was humble enough to share this online.
 
 original .psd as well as a .png from it are provided in the src folder.
+
+![poster](/src/Fun-Weather-App.png)
