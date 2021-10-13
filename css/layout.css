@@ -1,0 +1,499 @@
+.content-wrapper {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+/*  adjusts margins for all section headings */
+.heading {
+  margin: 6% auto;
+}
+/* header & first-screen bg */
+.header-first-screen-wrapper {
+  background: url("../img/wave2.png") bottom, url("../img/wave.png") bottom,
+    url("../img/bg4.png") center/cover;
+  background-repeat: repeat-x, repeat-x, repeat;
+  border-radius: 0 100% 100%/14%;
+  position: relative;
+  width: 100%;
+}
+
+/*............. Header (& repeated footer elements) .......... */
+
+header {
+  display: inline-block;
+  width: 100%;
+  padding: 2% 5%;
+}
+
+.menu {
+  display: flex;
+  flex-basis: 50%;
+  justify-content: space-between;
+  margin: 3% 0;
+}
+.menu a:hover {
+  color: #ffffff;
+  transition: ease-in;
+  transition-delay: 0.1s;
+}
+
+.social-links {
+  display: flex;
+  flex-basis: 12%;
+  justify-content: flex-end;
+}
+
+.social-links li {
+  margin: 1%;
+}
+
+/*............. First screen.......... */
+
+.first-screen {
+  padding: 0 8.5% 3% 8.5%;
+}
+.first-screen img {
+  align-self: center;
+}
+.first-screen-left {
+  padding-top: 187px;
+}
+
+.first-screen h1 {
+  margin-bottom: 50px;
+}
+.first-screen p {
+  display: inline;
+}
+
+.first-screen-buttons {
+  margin-top: 60px;
+}
+.download-btn {
+  width: 158px;
+  height: 52px;
+  border-radius: 5px;
+  background-color: #fc6a42;
+}
+.features-btn {
+  width: 158px;
+  height: 52px;
+  border-radius: 5px;
+  background-color: #4466c9;
+}
+
+.first-screen-left button:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.089),
+    rgba(255, 255, 0, 0.849)
+  );
+}
+
+/* ................................. */
+
+.first-screen-right {
+  display: flex;
+  padding-top: 95px;
+}
+.phone-left-column {
+  margin: auto 15px auto 0;
+}
+
+.phone {
+  width: 70%;
+  padding-bottom: 30px;
+}
+.phone-right-column {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+.sunny-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  background-color: #fc6a42;
+}
+
+.nine-degrees-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 29px;
+  background-color: #ffffff;
+  margin-left: 11px;
+  margin-top: 39px;
+}
+
+.london-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 45px;
+  background-color: #4466c9;
+  text-align: center;
+  margin-left: 25px;
+  margin-bottom: 48px;
+}
+.rio-bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 28px;
+  background-color: #fcec64;
+  margin-left: 21px;
+}
+
+.scroll-down {
+  display: none;
+}
+
+@media only screen and (min-width: 910px) {
+  .menu {
+    margin: 0;
+  }
+  header {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social-links {
+    justify-content: space-between;
+  }
+
+  .first-screen {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .scroll-down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 49px;
+    height: 49px;
+    border-radius: 25px;
+    background: radial-gradient(
+      white,
+      rgba(255, 255, 255, 0.76),
+      rgba(255, 255, 255, 0.644)
+    );
+    box-shadow: 2px 2px #8888886e;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+  }
+
+  .scroll-down img {
+    width: 10px;
+  }
+}
+
+/*............. Features.......... */
+
+h2,
+h2 + p {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.features main > div {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+
+.usability-right,
+.parallax-right,
+.colors-right {
+  margin-left: 4%;
+}
+
+@media only screen and (min-width: 910px) {
+  .features main {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+/*............. Widgets.......... */
+
+.widgets main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.widget-images {
+  display: flex;
+  margin-right: 8%;
+  margin-top: 2%;
+}
+
+.img-center {
+  position: relative;
+  width: 173px;
+  height: 291px;
+}
+.img-left {
+  position: absolute;
+  left: 42px;
+  top: 18px;
+}
+.img-right {
+  position: absolute;
+  right: 42px;
+  top: 18px;
+}
+.img-left,
+.img-right {
+  position: relative;
+  width: 130px;
+  height: 260px;
+  z-index: -1;
+}
+/* shadows positions */
+.widget-images img:first-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* images positions */
+.widget-images img:last-child {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+[class*="-arrow"] {
+  margin: auto;
+}
+
+@media only screen and (min-width: 910px) {
+  .widget-images {
+    margin-right: 6%;
+  }
+  .img-center {
+    width: 288px;
+    height: 486px;
+  }
+  .img-left {
+    left: 70px;
+    top: 30px;
+  }
+  .img-right {
+    right: 70px;
+    top: 30px;
+  }
+  .img-left,
+  .img-right {
+    width: 216px;
+    height: 432px;
+  }
+  .widget-images img:last-child {
+    bottom: 50px;
+    left: 50px;
+  }
+}
+
+/*............. Screenshots.......... */
+
+.left-circle,
+.right-circle {
+  width: 92px;
+  height: 92px;
+  border-radius: 46px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cloudy .right-circle {
+  background-color: #fbeb63;
+}
+.cloudy .left-circle {
+  background-color: #6ba3ff;
+}
+.sunny .right-circle {
+  background-color: #f1a14d;
+}
+.sunny .left-circle {
+  background-color: #fb6941;
+}
+.rainy .right-circle {
+  background-color: #b7f9ed;
+}
+.rainy .left-circle {
+  background-color: #7593c7;
+}
+
+/* ................................ */
+
+.shadow-text {
+  position: absolute;
+  z-index: -1;
+  top: -30px;
+  margin-left: 250px;
+}
+
+.left-circle {
+  position: absolute;
+  bottom: 125px;
+  margin-right: 320px;
+}
+.right-circle {
+  position: absolute;
+  top: 160px;
+  margin-left: 320px;
+}
+/* ............................... */
+
+.poster {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: relative;
+  margin: 5%;
+}
+
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 5%;
+}
+
+.info img {
+  align-self: center;
+}
+
+.info > * {
+  margin: 1%;
+}
+
+@media only screen and (min-width: 910px) {
+  .screenshots main > div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .info {
+    display: inline-block;
+  }
+
+  .info img {
+    align-self: stretch;
+  }
+}
+
+/*............. Reviews.......... */
+/* Entire section in typography file */
+
+/*............. Download.......... */
+
+.download-wrapper {
+  background: url("../img/lines.png"), url("../img/bg3.png");
+  background-repeat: repeat;
+  position: relative;
+  bottom: -210px;
+  z-index: -1;
+}
+.download {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.download main {
+  display: flex;
+  width: 600px;
+  height: 350px;
+  flex-flow: column nowrap;
+  margin: 60px 0 0 20px;
+}
+
+.download h1 {
+  margin-bottom: 20px;
+}
+
+aside {
+  display: flex;
+  position: relative;
+  margin-top: 100px;
+}
+.screen-left {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+.screen-middle {
+  position: relative;
+}
+.screen-right {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+}
+
+@media only screen and (min-width: 910px) {
+  .download main {
+    margin: 60px 0 0 0;
+  }
+}
+
+/*............. Footer.......... */
+/* shares some elements with header */
+.footer-wrapper {
+  background: url("../img/bg2.png");
+  background-repeat: repeat;
+}
+
+footer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+}
+
+nav {
+  display: inline-block;
+  padding: 100px 3%;
+  border-bottom: 1px solid #434669;
+  margin: 0 7%;
+}
+
+footer aside {
+  padding-left: 61%;
+  margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 910px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .scroll-down {
+    animation: bounce 0.4s infinite alternate;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-20px);
+    }
+  }
+}

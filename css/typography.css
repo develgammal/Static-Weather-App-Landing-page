@@ -1,0 +1,227 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/*............. header and first screen.......... */
+
+header p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.menu {
+  font-size: 1.125rem;
+  line-height: 1.37rem;
+  color: #e1e1e1;
+  font-weight: 400;
+}
+
+.menu li {
+  margin: 0.3rem;
+}
+
+h1 {
+  font-size: 3.75rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+h1 + p {
+  width: 27.625rem;
+  height: 23.625rem;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.first-screen-left button {
+  font-size: 1.125rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.sunny-bubble {
+  font-size: 1.125rem;
+  letter-spacing: -0.063rem;
+  line-height: 10.438rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.nine-degrees-bubble {
+  font-size: 1.25rem;
+  color: #6ca3ff;
+  font-weight: 700;
+}
+
+.london-bubble {
+  font-size: 1rem;
+  letter-spacing: -0.063rem;
+  line-height: 10.438rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.rio-bubble {
+  font-size: 1.125rem;
+  color: #648cff;
+  font-weight: 700;
+}
+
+/*............. Features.......... */
+
+h2 {
+  font-size: 2.25rem;
+  color: #648cff;
+  font-weight: 700;
+}
+
+h2 + p {
+  font-size: 1.125rem;
+  color: #999999;
+  font-weight: 400;
+}
+
+.features-subtitle {
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #353854;
+  font-weight: 700;
+}
+
+.features main p {
+  width: 17rem;
+  height: 6rem;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #aeaeae;
+  font-weight: 400;
+}
+
+/*............. Screenshots.......... */
+
+h3 {
+  font-size: 2.25rem;
+  line-height: 10.438rem;
+  color: #648cff;
+  font-weight: 700;
+}
+
+h3 + p {
+  width: 29.375rem;
+  height: 7.438rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #353854;
+  font-weight: 400;
+}
+
+.left-circle,
+.right-circle {
+  letter-spacing: -0.063rem;
+  line-height: 6.375rem;
+  font-weight: 700;
+}
+.cloudy .right-circle {
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+.cloudy .left-circle {
+  font-size: 1.813rem;
+  color: #ffffff;
+}
+.sunny .right-circle {
+  font-size: 1.125rem;
+  color: #ffffff;
+}
+.sunny .left-circle {
+  font-size: 1.813rem;
+  color: #ffffff;
+}
+.rainy .right-circle {
+  font-size: 1.125rem;
+  color: #7e8c91;
+}
+.rainy .left-circle {
+  font-size: 1.813rem;
+  color: #ffffff;
+}
+
+/*............. Reviews.......... */
+
+article {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+blockquote {
+  width: 35.56rem;
+  height: 9.87rem;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+  color: #353854;
+  font-weight: 400;
+  position: relative;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 8.87rem;
+  color: #648cff;
+  font-weight: 400;
+  position: absolute;
+}
+
+blockquote::after {
+  content: "“";
+  font-size: 8.87rem;
+  color: #648cff;
+  font-weight: 400;
+  position: absolute;
+  transform: rotate(180deg);
+}
+
+cite {
+  width: 35.56rem;
+  height: 6.12rem;
+  font-size: 1.125rem;
+  color: #353854;
+  font-weight: 400;
+  margin-left: 2.5rem;
+}
+
+@media only screen and (min-width: 910px) {
+  .reviews main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+
+  article {
+    display: block;
+    margin: 0 0 2% 0;
+  }
+}
+
+/*............. Footer.......... */
+
+footer span:first-child {
+  color: #fc6a42;
+}
+footer span:last-child {
+  color: rgb(108, 187, 236);
+}
+
+footer p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+footer aside {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: #565b87;
+  font-weight: 400;
+}
