@@ -1,3 +1,5 @@
+![poster](demo1.gif)
+
 This is a conversion from a PSD template using Vanilla CSS/HTML
 
 I haven't used any CSS fraweworks or HTML helpers. Just basic VSCODE stuff.
@@ -9,4 +11,5 @@ This design is based on the contest winning PSD provided by [Bionocopy](https://
 
 original .psd as well as a .png from it are provided in the src folder.
 
-![poster](/src/Fun-Weather-App.png)
+
+![poster](demo2.gif)
