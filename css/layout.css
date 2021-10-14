@@ -428,6 +428,10 @@ h2 + p {
   margin-bottom: 20px;
 }
 
+.app-download {
+  display: flex;
+  justify-content: space-evenly;
+}
 aside {
   display: flex;
   position: relative;
@@ -447,9 +451,12 @@ aside {
   left: 200px;
 }
 
+.download main {
+  margin: 60px 0 0 0;
+}
 @media only screen and (min-width: 910px) {
-  .download main {
-    margin: 60px 0 0 0;
+  .app-download {
+    display: block;
   }
 }
 
