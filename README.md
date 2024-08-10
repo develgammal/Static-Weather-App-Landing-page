@@ -1,18 +1,19 @@
-# <a href="https://amroweatherlanding.netlify.app/">Click here for Deployed Website Link</a>
+# [Deployed Website Link](https://amroweatherlanding.netlify.app/)
 
-![poster](demo1.gif)
+![Project Demo](demo1.gif)
 
-**This is a conversion from a professional PSD template &#x1F9F9; using Vanilla CSS/HTML**
-I haven't used any CSS frameworks or HTML helpers, just basic VSCODE stuff.
+## About This Project
 
-Surely I learned a lot about my personal coding style especially in CSS and how to manage separately organized style sheets which proved to be a quite helpful concept when handling challenging design elements in line with the "separation of concerns principle".	&#10004;
+This project is a conversion of a professional PSD template &#x1F9F9; into a fully functional website using only Vanilla CSS and HTML. I deliberately avoided using any CSS frameworks or HTML helpers, relying solely on vanilla code.
 
-<br/>
+It was intended as a design/UI drill of how to manage separate, organized style sheets a concept that became extremely useful when dealing with challenging design elements. This approach aligns well with the "separation of concerns" principle, ensuring that the styling and structure of the code remain clean and maintainable &#10004;.
 
-meeting designer's expectations and guidelines, pixel to pixel fidelity	&#x1F4CF;, as well as achieving maximum responsivity across different window sizes :desktop_computer:, were key concepts that I improved while coding this project:
+Key concepts that I honed during this project include:
 
+- **Pixel-Perfect Precision:** Achieving pixel-to-pixel fidelity &#x1F4CF; was essential to meet the designer's expectations and guidelines.
 
-<img src="demo2.gif" width="400" />
+- **Responsiveness:** Ensuring the design looks great across different screen sizes was a priority, as I focused on maximizing responsiveness &#128187;.
 
-This design is based on the contest winning PSD provided by [Bionocopy](https://gumroad.com/bionocopy) He was humble enough to share this online.
-original .psd as well as a .png from it are provided in the src folder.
+![Responsive Design Demo](demo2.gif)
+
+This design is based on the contest-winning PSD provided by [Bionocopy](https://gumroad.com/bionocopy), who generously shared it online. The original `.psd` file, as well as a `.png` version, are available in the `src` folder of the project.
